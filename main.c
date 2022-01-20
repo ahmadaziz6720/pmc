@@ -44,7 +44,7 @@ int main()
             liter5 = 0;
             if (liter3 > 3) {
                 liter5 = liter3-3;
-                liter3 = 3
+                liter3 = 3;
             }
         }
         else if (pilihan == 5) {
