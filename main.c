@@ -33,14 +33,18 @@ int main()
         }
         else if (pilihan == 3) {
             liter5 = liter5 + liter3;
+            liter3 = 0;
             if (liter5 > 5) {
+                liter3 = liter5-5;
                 liter5 =5;
             }
         }
         else if (pilihan == 4) {
             liter3 = liter3 + liter5;
+            liter5 = 0;
             if (liter3 > 3) {
-                liter3 =3;
+                liter5 = liter3-3;
+                liter3 = 3
             }
         }
         else if (pilihan == 5) {
